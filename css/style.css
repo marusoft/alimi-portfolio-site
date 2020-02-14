@@ -220,4 +220,8 @@ strong {
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
 }
+.project-btn:hover {
+  transform: scale(1.1);
+}
+
 /* skills section end */
