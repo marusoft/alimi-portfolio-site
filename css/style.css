@@ -205,4 +205,19 @@ strong {
 .skill-head{
   color: var(--clr-green);
 }
+
+/* project button */
+.project-btn {
+  display: inline-block;
+  padding: .5em 2.5em;
+  color: var(--clr-light);
+  border: 2px solid var(--clr-green);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: .96rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
 /* skills section end */
