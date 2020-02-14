@@ -14,7 +14,9 @@
 
   --clr-light: #fff;
   --clr-dark: #303030;
+  --clr-green: #5cce2f;
   --clr-accent: #16e0bd;
+  --clr-lilac: #5E368D;
 
   --fs-h1: 4.5rem;
   --fs-h2: 3.75rem;
@@ -79,7 +81,8 @@ header {
 .nav-list a {
   text-decoration: none;
   padding: 0.4em 0.85em;
-  color: var(--clr-dark);
+  color: var(--clr-lilac);
+  font-weight: var(--fw-bold);
 }
 .nav-item {
   list-style-type: none;
@@ -120,12 +123,12 @@ strong {
 }
 
 .subtitle-intro {
-  background: var(--clr-accent);
+  background: var(--clr-lilac);
+  color: var(--clr-light);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
-/* section-intro end */
 
 @media (min-width: 600px) {
   .intro-section {
@@ -151,3 +154,55 @@ strong {
  }
  
 }
+/* section-intro end */
+
+/* skills section start */
+.my-skills{
+  background-color: var( --clr-lilac);
+  background-size: cover;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.skill-item{
+  list-style-type: none;
+}
+.skill-title{
+  color: var(--clr-light);
+  position: relative;
+}
+.skills{
+  margin-bottom: 4em;
+}
+.skill{
+  max-width: 500px;
+  margin: 0 auto;
+
+}
+@media (min-width: 800px){
+  .skills{
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill + .skill {
+    margin-left: 2em;
+  }
+}
+.skill-info{
+  color: var(--clr-light);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-h3);
+  /* margin: 1.0em; */
+}
+.skill-list{
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+  margin-right: 1.7em ;
+
+}
+.skill-head{
+  color: var(--clr-green);
+}
+/* skills section end */
