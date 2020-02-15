@@ -225,3 +225,10 @@ strong {
 }
 
 /* skills section end */
+
+/* about me section start */
+.about-me {
+  color: var(--clr-lilac);
+  text-align: center;
+}
+/* about me section start */
