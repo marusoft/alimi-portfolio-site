@@ -229,6 +229,22 @@ strong {
 /* about me section start */
 .about-me {
   color: var(--clr-lilac);
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.about-title{
+   text-align: center;
+}
+.about-details{
+  color: var(--clr-dark);
+  /* font-weight: var(--fw-reg); */
+  font-size: var(--fs-h3);
 }
 /* about me section start */
+
+@media (max-width: 767px){
+ .nav{
+   display: none;
+ }
+ 
+}
