@@ -220,7 +220,7 @@ strong {
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
 }
-.project-btn:hover, .cv-btn:hover {
+.project-btn:hover, .cv-btn:hover, .project-card:hover {
   transform: scale(1.1);
 }
 /* skills section end */
@@ -258,6 +258,29 @@ strong {
 text-align: center;
 }
 /* about me section start */
+
+/* project style start*/
+.my-project{
+  background-color: var(--clr-lilac);
+  color: var(--clr-light);
+  text-align: center;
+}
+.project-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 98%;
+  height: auto;
+}
+.project-card{
+  width: 270px;
+  height: 330px;
+  margin: 25px auto;
+  text-align: center;
+  box-shadow: var(--bs);
+  transition: transform 200ms ease-in-out;
+}
+/* project style end */
 
 @media (max-width: 767px){
  .nav{
