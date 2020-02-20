@@ -283,6 +283,39 @@ text-align: center;
 }
 /* project style end */
 
+/* footer start */
+.footer-social{
+  background: var(--clr-lilac1);
+  color: var(--clr-light);
+  text-align: center;
+  padding: 2.5em 0;
+  font-size: var(--fs-h3);
+}
+.footer-social a{
+  color: inherit;
+  text-decoration: none;
+}
+.email-link{
+  font-weight: var(--fw-bold);
+}
+.email-link:hover, .social-link:hover{
+  opacity: .5;
+}
+.social-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+.social-item{
+  margin: 0 .5em;
+}
+.social-link{
+  padding: .5em;
+}
+/* footer end */
+
 @media (max-width: 767px){
  .nav{
    display: none;
