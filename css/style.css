@@ -295,7 +295,7 @@ text-align: center;
   color: inherit;
   text-decoration: none;
 }
-.email-link{
+.email-link, .copyright{
   font-weight: var(--fw-bold);
 }
 .email-link:hover, .social-link:hover{
