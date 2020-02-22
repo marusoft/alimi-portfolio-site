@@ -268,18 +268,34 @@ text-align: center;
 }
 .project-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 98%;
+  width: 100%;
   height: auto;
 }
 .project-card{
-  width: 270px;
-  height: 330px;
-  margin: 25px auto;
+  width: 400px;
+  height: 440px;
+  margin: 35px auto;
   text-align: center;
   box-shadow: var(--bs);
   transition: transform 200ms ease-in-out;
+}
+.card-image{
+  width: 400px;
+  height: 439px;
+}
+.project-details{
+  margin: 20px;
+  line-height: 1.7em;
+  text-align: left;
+  font-size: .95em;
+  font-weight: var(--fw-bold);
+}
+.work-title{
+  color: var(--clr-light);
+  margin-top: 35px;
+  font-family: var(--ff-secondary);
 }
 /* project style end */
 
