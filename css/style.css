@@ -280,6 +280,15 @@ text-align: center;
   text-align: center;
   box-shadow: var(--bs);
   transition: transform 200ms ease-in-out;
+  background-color: #754ba6;
+}
+.tech{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: -20px;
+  padding: 3.5em 2.0em;
+  font-weight: var(--fw-bold);
 }
 .card-image{
   width: 400px;
@@ -301,7 +310,7 @@ text-align: center;
 
 /* footer start */
 .footer-social{
-  background: var(--clr-lilac1);
+  background: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
   padding: 2.5em 0;
