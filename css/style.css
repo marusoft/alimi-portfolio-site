@@ -83,7 +83,7 @@ header {
   justify-content: space-around;
   flex-direction: row;
 }
-.nav-list a {
+.nav a {
   text-decoration: none;
   padding: 0.4em 0.85em;
   color: var(--clr-lilac);
@@ -349,9 +349,68 @@ text-align: center;
 }
 /* footer end */
 
-@media (max-width: 767px){
- .nav{
-   display: none;
- }
- 
+
+/* hamburger menu */
+.hambuger-container {
+  display: none;
+}
+
+/* media query for menu bar icon at screen size max-width:768px*/
+@media only screen and (max-width: 768px) {
+  .hambuger1,
+  .hambuger2,
+  .hambuger3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--clr-lilac);
+    margin: 6px 0;
+    transition: 0.5s;
+  }
+  .hambuger-container {
+    cursor: pointer;
+    display: block;
+    align-self: flex-end;
+    position: absolute;
+    padding: 8px;
+  }
+
+  .toggler .hambuger1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .toggler .hambuger2 {
+    opacity: 0;
+  }
+
+  .toggler .hambuger3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .nav-list{
+    display: none;
+  }
+  .toggler {
+    display: block;
+  }
+
+  .container,
+  .nav {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .logo a,
+  .nav a {
+    padding: 0px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .tech{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: -10px;
+    padding: 2.0em;
+    font-size: 12px;
+    font-weight: var(--fw-bold);
+  }
 }
