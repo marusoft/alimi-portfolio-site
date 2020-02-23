@@ -17,7 +17,7 @@
   --clr-green: #5cce2f;
   --clr-accent: #16e0bd;
   --clr-lilac: #5E368D;
-  --clr-lilac1: #443761;
+  --clr-lilac1: #754ba6;
 
   --fs-h1: 4.5rem;
   --fs-h2: 3.75rem;
@@ -280,7 +280,7 @@ text-align: center;
   text-align: center;
   box-shadow: var(--bs);
   transition: transform 200ms ease-in-out;
-  background-color: #754ba6;
+  background-color: var(--clr-lilac1);
 }
 .tech{
   display: flex;
@@ -293,6 +293,10 @@ text-align: center;
 .card-image{
   width: 400px;
   height: 439px;
+}
+.project-link{
+  color: var(--clr-light);
+  font-size: var(--fs-h3);
 }
 .project-details{
   margin: 20px;
